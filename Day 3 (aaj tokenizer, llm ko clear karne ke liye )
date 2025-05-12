@@ -1,0 +1,48 @@
+📚 Key Concepts of NLTK in AI:
+Text Preprocessing
+
+Tokenization: Breaking text into words, sentences, or phrases (tokens).
+
+Example:
+"NLTK is great!" → ["NLTK", "is", "great", "!"]
+
+Stop-word Removal: Removing common words like 'the', 'and', etc., that don't contribute much to meaning.
+
+Stemming & Lemmatization: Reducing words to their base form.
+
+Example:
+"running" → "run" (Stemming)
+"better" → "good" (Lemmatization)
+
+Part-of-Speech Tagging: Assigning grammatical labels (noun, verb, adjective) to words in a sentence.
+
+Text Representation
+
+Bag of Words (BoW): Representing text as a collection of words while ignoring grammar and word order.
+
+TF-IDF (Term Frequency-Inverse Document Frequency): Measures the importance of a word in a document relative to a collection of documents (corpus).
+
+Sentiment Analysis
+NLTK can be used for sentiment analysis, which classifies text into categories such as positive, negative, or neutral based on its sentiment.
+
+Example: Using NLTK's VADER (Valence Aware Dictionary and sEntiment Reasoner) for sentiment analysis of customer reviews or social media posts.
+
+Named Entity Recognition (NER)
+Identifying proper names (people, places, organizations) from the text.
+
+Example:
+"Barack Obama was born in Hawaii." → Barack Obama (Person), Hawaii (Location)
+
+Text Classification
+NLTK can classify text into predefined categories, such as spam detection or topic classification.
+
+Example: Classifying a news article as 'sports', 'politics', 'technology', etc.
+
+WordNet
+NLTK integrates with WordNet, a lexical database of English, to find synonyms, antonyms, hypernyms (more general terms), and hyponyms (more specific terms) for words.
+
+Example:
+
+Synonyms for "happy": joyful, content
+
+Antonyms for "happy": sad, miserable
